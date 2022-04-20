@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>IIITK Admissions</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <link rel="icon" href="images/logo.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <a class="navbar-brand logo-image" href="index.html"
+        ><img src="images/logo.png" alt="alternative"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-awesome fas fa-bars"></span>
+        <span class="navbar-toggler-awesome fas fa-times"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="./index.html#header"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="./index.html#dia">Online Admission Portal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="./index.html#int">Program Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="./index.html#request">Admission Procedure</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="./index.html#request">Financial Assistance</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle page-scroll"
+              href="#about"
+              id="navbarDropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >About</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://iiitk.ac.in/"
+                ><span class="item-text">Terms Conditions</span></a
+              >
+              <div class="dropdown-items-divide-hr"></div>
+              <a class="dropdown-item" href="https://iiitk.ac.in/"
+                ><span class="item-text">Privacy Policy</span></a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <span class="nav-item social-icons">
+          <span class="fa-stack">
+            <a href="https://www.facebook.com/IIITDM-Kurnool-211133533006549/">
+              <i class="fas fa-circle fa-stack-2x facebook"></i>
+              <i class="fab fa-facebook-f fa-stack-1x"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="https://twitter.com/iiitdmkurnool">
+              <i class="fas fa-circle fa-stack-2x twitter"></i>
+              <i class="fab fa-twitter fa-stack-1x"></i>
+            </a>
+          </span>
+        </span>
+      </div>
+    </nav>
+   <div class="appointment"> 
+       <div class="col-lg-8">
+           <h1>FAQs </h1>
+            <form id="contactForm" data-toggle="validator" data-focus="false">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  required
+                />
+                <label class="label-control" for="cname">Name</label>
+                <div class="help-block with-errors"></div>
+              </div>
+                <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  required
+                />
+                <label class="label-control" for="cname">Phone No.</label>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control-input"
+                  id="cemail"
+                  required
+                />
+                <label class="label-control" for="cemail">Email</label>
+                <div class="help-block with-errors"></div>
+              </div>
+                <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  
+                />
+                <label class="label-control" for="clocation">Location</label>
+                <div class="help-block with-errors"></div>
+              </div>
+                
+               
+                <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  
+                />
+                <label class="label-control" for="cname">Query</label>
+                <div class="help-block with-errors"></div>
+              </div>
+                   
+             
+              <div class="form-group checkbox">
+                <input
+                  type="checkbox"
+                  id="cterms"
+                  value="Agreed-to-Terms"
+                  required
+                />I have read and agree with OAMS stated
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms Conditions</a>
+                <div class="help-block with-errors"></div>
+              </div>
+              
+               <div class="form-group ">
+                <button type="submit" onclick="document.location='submitted_appointment.html'"  class="form-control-submit-button col-lg-4">
+                  Submit Query
+                </button>
+              </div>
+              <div class="form-message">
+                <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+              </div>
+            </form>
+          </div></div>
+    
+             
+    <div id="contact" class="form-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Contact Information</h2>
+            <ul class="list-unstyled li-space-lg">
+              <li class="address">
+                You can ask query or mail us at admissions[at]iiitk[dot]ac[dot]in
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>IIITDM Kurnool, Andhra
+                Pradesh - 518007, India
+              </li>
+              <li>
+                <i class="fas fa-phone"></i
+                ><a class="turquoise" href="tel:003024630820"
+                  >+91 89232 21345</a
+                >
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i
+                ><a class="turquoise" href="mailto:office@evolo.com"
+                  >admissions[at]iiitk[dot]ac[dot]in</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="map-responsive">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="600"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=iitdm%20kurnool&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://www.whatismyip-address.com"
+                    >what is my ip</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form id="contactForm" data-toggle="validator" data-focus="false">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control-input"
+                  id="cname"
+                  required
+                />
+                <label class="label-control" for="cname">Name</label>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control-input"
+                  id="cemail"
+                  required
+                />
+                <label class="label-control" for="cemail">Email</label>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control-textarea"
+                  id="cmessage"
+                  required
+                ></textarea>
+                <label class="label-control" for="cmessage">Your message</label>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group checkbox">
+                <input
+                  type="checkbox"
+                  id="cterms"
+                  value="Agreed-to-Terms"
+                  required
+                />I have read and agree with OAMS stated
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms Conditions</a>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="form-control-submit-button">
+                  SUBMIT MESSAGE
+                </button>
+              </div>
+              <div class="form-message">
+                <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-col">
+              <h4>About OAMS</h4>
+              <h5>Mission</h5>
+              <p>
+                To become a center of excellence pioneering in education, research & development, and leaders in design & manufacturing.
+              </p>
+              <h5>Vision</h5>
+              <p>
+                To become a leading institute of higher learning in Information Technology enabled design & 
+                manufacturing to create technologies and technologists befitting the industries globally.
+              </p>
+              <h5>Charter</h5>
+              <p>
+                To carry out advanced research and development activities in design and manufacturing technologies, 
+                both on its own and on sponsorship basis for the industry.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>Important Links</h4>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    Read our
+                    <a class="turquoise" href="https://iiitk.ac.in/">Terms & Conditions</a>,
+                    <a class="turquoise" href="https://iiitk.ac.in/">Privacy Policy</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-col last">
+              <h4>Social Media</h4>
+              <span class="fa-stack">
+                <a href="https://www.facebook.com/IIITDM-Kurnool-211133533006549/">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="https://twitter.com/iiitdmkurnool">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="https://www.youtube.com/channel/UCXUm4xE1QB6jkBMRBnmtguw">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="https://www.linkedin.com/in/iiitdm-kurnool-966916169/  ">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">
+              Copyright © 2020 <a href="https://slavnation.com">Indian Institute of Information Technology Design and Manufacturing Kurnool</a> - All
+              rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
