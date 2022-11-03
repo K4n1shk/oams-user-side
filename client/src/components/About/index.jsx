@@ -141,7 +141,7 @@ const About = () => {
         <>
             <Navbar />
             <div className="container my-5 bg-indigo-50 p-10 rounded-lg max-w-7xl mx-auto px-4 sm:px-6">
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} enctypr="multipart/form-data">
                     <div className="mt-10 sm:mt-0">
                         <div className="md:grid md:grid-cols-3 md:gap-6">
                             <div className="md:col-span-1">
